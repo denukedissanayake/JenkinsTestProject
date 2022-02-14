@@ -9,6 +9,7 @@ pipeline {
         stage('Run the App') {
             steps {
                 sh 'ls'
+                'node app.js'
             }
         }
     }
