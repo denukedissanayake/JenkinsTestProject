@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run the App') {
             steps {
-                sh 'node JenkinsTestProject/app.js'
+                sh 'ls'
             }
         }
     }
